@@ -3,7 +3,7 @@
 </div>  
   
 
-# <div align="center">I am <b>#Rohan<b></div>  
+# <div align="center">I am <b>Rohan<b></div>  
   
 
 ### <div align="center">a tech enthusiast and fullstack developer</div>  
