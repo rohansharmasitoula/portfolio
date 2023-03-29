@@ -1,3 +1,5 @@
+
+<div style="background-color:#171717; color: #ffffff">
 <div align="center">
 <img src="https://media2.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif?cid=ecf05e47f5zp90z0nm0daz0n8qjuq208ap5i8wn89j8fcn0f&rid=giphy.gif&ct=g" align="center" style="width: 100%" />
 </div>  
@@ -93,3 +95,4 @@
 
 
 <br />
+</div>
