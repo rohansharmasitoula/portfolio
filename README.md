@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://user-images.githubusercontent.com/100085662/228452181-4b8544b6-e0f3-499b-8e0a-e81f9e9f4b4e.png](https://gifdb.com/gif/oh-hello-there-greetings-ovq8hauyvb6icsk8.html" align="center" style="width: 100%" />
+<img src="https://gifdb.com/gif/oh-hello-there-greetings-ovq8hauyvb6icsk8.html?embed=true" align="center" style="width: 100%" />
 </div>  
   
 
