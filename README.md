@@ -1,23 +1,16 @@
-
 <div style="background-color:#171717; color: #ffffff">
 <div align="center">
 <img src="https://media2.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif?cid=ecf05e47f5zp90z0nm0daz0n8qjuq208ap5i8wn89j8fcn0f&rid=giphy.gif&ct=g" align="center" style="width: 100%" />
 </div>  
-  
 
 # <div align="center">I am <b>Rohan<b></div>  
-  
 
-### <div align="center">a tech enthusiast and fullstack developer</div>  
-  
+### <div align="center">a tech enthusiast and full-stack developer</div>  
 
 <br/>  
 
-
 ## My Skill Set  
 <table><tr><td valign="top" width="33%">
-
-
 
 ### Frontend  
 <div align="center">  
@@ -30,8 +23,6 @@
 </div>
 
 </td><td valign="top" width="33%">
-
-
 
 ### Backend  
 <div align="center">  
@@ -49,8 +40,6 @@
 
 </td><td valign="top" width="33%">
 
-
-
 ### Cloud   
 <div align="center">  
 <a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" /></a>  
@@ -61,7 +50,6 @@
 </td></tr></table>  
 
 <br/>  
-
 
 ## Connect with me  
 <div align="center">
@@ -75,24 +63,13 @@
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>  
 </div>  
-  
 
 <br/>  
 
-  <div align ="center">
+<div align="center">
+<img src="https://visitor-badge.glitch.me/badge?page_id=rohansharmasitoula.rohansharmasitoula" align="center" />
+</div>  
 
-## Github Stats  
-![](https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=swift&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=rohansharmasitoula&theme=swift&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rohansharmasitoula&theme=swift&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-[![](https://visitcount.itsvg.in/api?id=rohansharmasitoula&icon=0&color=0)](https://visitcount.itsvg.in)
-  </div>
 <br/>  
 
-
-
-
-<br />
 </div>
