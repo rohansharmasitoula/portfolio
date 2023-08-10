@@ -76,8 +76,8 @@
 <br/>  
 
 ## GitHub Stats  
-<div align="center">![Rohan's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&count_private=true)
-</div>  
+![Rohan's GitHub stats](https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&count_private=true)
+
 
 
 
