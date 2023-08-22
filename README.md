@@ -1,4 +1,4 @@
-<div style="background-color:#171717; color: #ffffff">
+
 <div align="center">
 <img src="https://media2.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif?cid=ecf05e47f5zp90z0nm0daz0n8qjuq208ap5i8wn89j8fcn0f&rid=giphy.gif&ct=g" align="center" style="width: 100%" />
 </div>  
@@ -59,6 +59,15 @@
 <br/>  
 
 
+  
+
+<br/>  
+
+![rohansharmasitoula's Stats](https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&count_private=true) <br/>
+![rohansharmasitoula's Streak](https://github-readme-streak-stats.herokuapp.com/?user=rohansharmasitoula&theme=vue-dark&hide_border=true)<br/>
+![rohansharmasitoula's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+
+
 ## Connect with me  
 <div align="center">
 <a href="https://github.com/rohansharmasitoula" target="_blank">
@@ -71,15 +80,6 @@
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>  
 </div>  
-  
-
-<br/>  
-
-![rohansharmasitoula's Stats](https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&count_private=true) <br/>
-![rohansharmasitoula's Streak](https://github-readme-streak-stats.herokuapp.com/?user=rohansharmasitoula&theme=vue-dark&hide_border=true)<br/>
-![rohansharmasitoula's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
-
-
 
 
 
