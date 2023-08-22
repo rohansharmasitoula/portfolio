@@ -75,8 +75,9 @@
 
 <br/>  
 
-<img src="https://streak-stats.demolab.com?user=sitoularohansharma&theme=dark&hide_border=true">
-
+![rohansharmasitoula's Stats](https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+![rohansharmasitoula's Streak](https://github-readme-streak-stats.herokuapp.com/?user=rohansharmasitoula&theme=vue-dark&hide_border=true)
+![rohansharmasitoula's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 
 
 
