@@ -74,11 +74,11 @@
   
 
 <br/>  
-<div align="center">
+
 ![rohansharmasitoula's Stats](https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&count_private=true) <br/>
 ![rohansharmasitoula's Streak](https://github-readme-streak-stats.herokuapp.com/?user=rohansharmasitoula&theme=vue-dark&hide_border=true)<br/>
 ![rohansharmasitoula's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
-</div>
+
 
 
 
