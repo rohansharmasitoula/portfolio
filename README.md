@@ -83,7 +83,7 @@
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" alt="Rohan Sharma's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=vue-dark&&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="Rohan Sharma's GitHub Stats" />
 </div>
 
 <div align="center">
