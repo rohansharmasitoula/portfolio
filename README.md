@@ -91,7 +91,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohansharmasitoula&theme=vue-dark&show_icons=true&hide_border=true&layout=compact" alt="Rohan Sharma's Top Languages" />
+  [![Rohan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=rohansharmasitoula)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 
 ---
