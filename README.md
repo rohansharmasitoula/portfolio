@@ -91,7 +91,7 @@
 </div>
 
 <div align="center">
-  [![Rohan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=rohansharmasitoula)](https://github.com/anuraghazra/github-readme-stats)
+  <img src= "https://github-readme-stats.vercel.app/api/wakatime?username=rohansharmasitoula" alt = 'Rohan's Prog Stack" />
 </div>
 
 ---
