@@ -82,17 +82,7 @@
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=vue-dark&&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="Rohan Sharma's GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rohansharmasitoula&theme=vue-dark&hide_border=true" alt="Rohan Sharma's GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src= "https://github-readme-stats.vercel.app/api/wakatime?username=rohansharmasitoula" alt = 'Rohan's Prog Stack" />
-</div>
+![Stats](images/userstats.svg)
 
 ---
 
