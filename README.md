@@ -82,7 +82,7 @@
 
 ---
 
-![Stats](images/userstats.svg)
+![Stats](images/contribs.svg)
 
 ---
 
