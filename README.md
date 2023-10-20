@@ -82,8 +82,9 @@
 
 ---
 
-![Stats](images/contribs.svg)
-
+![Contributions](images/contribs.svg)
+![Repos](images/repos.svg)
+![Languages](images/languages.svg)
 ---
 
 ## Connect with me  
