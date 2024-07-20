@@ -6,6 +6,15 @@
 
 ### <div align="center">A Tech Enthusiast and Fullstack Developer</div>
 
+<div align="center">
+  
+![rohansharmasitoula's Stats](https://github-readme-stats.vercel.app/api?username=rohansharmasitoula&theme=graywhite&show_icons=true&hide_border=false&count_private=true)
+
+![rohansharmasitoula's Streak](https://github-readme-streak-stats.herokuapp.com/?user=rohansharmasitoula&theme=graywhite&hide_border=false)
+
+![rohansharmasitoula's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rohansharmasitoula&theme=graywhite&show_icons=true&hide_border=false&layout=compact)
+
+</div>
 
 ## Connect with me  
 <div align="center">
