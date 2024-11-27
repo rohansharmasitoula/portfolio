@@ -1,73 +1,113 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const init = () => {
-        const body = document.querySelector('body');
-        body.classList.add('bg-gray-900', 'text-gray-200','font-sans', 'overflow-x-hidden');
-        const nav = document.createElement('nav');
-        nav.className = 'w-50 bg-gray-800 p-4';
-        body.appendChild(nav);
+    document.body.classList.add('bg-gray-900', 'text-gray-200', 'font-sans', 'overflow-x-hidden');
+    const nav = document.createElement('nav');
+    nav.classList.add('w-50', 'bg-gray-800', 'p-4');
+    document.body.appendChild(nav);
 
-        const title = document.createElement('h1');
-        title.className = 'text-2xl font-bold text-orange-500 mb-6 hidden sm:block';
-        title.textContent = 'Rohan Sharma Sitoula';
-        nav.appendChild(title);
+    const navHeader = document.createElement('h1');
+    navHeader.classList.add('text-2xl', 'font-bold', 'text-orange-500', 'mb-6', 'hidden', 'sm:block');
+    navHeader.textContent = 'Rohan Sharma Sitoula';
+    nav.appendChild(navHeader);
 
-        const ul = document.createElement('ul');
-        ul.className = 'space-y-4';
-        nav.appendChild(ul);
+    const navigationUl = document.createElement('ul');
+    navigationUl.classList.add('space-y-4');
+    nav.appendChild(navigationUl);
 
-        const sectionsArray = ['about', 'skills', 'experience', 'education', 'contact'];
-        const iconsArray = ['👤', '🛠', '💼', '🎓', '📬'];
-        sectionsArray.forEach((section, index) => {
-            const li = document.createElement('li');
-            const button = document.createElement('button');
-            button.className = `nav-btn flex items-center`;
-            button.dataset.section = section;
-            const spanIcon = document.createElement('span');
-            spanIcon.className = 'block text-orange-500 mr-2';
-            spanIcon.textContent = iconsArray[index];
-            const spanText = document.createElement('span');
-            spanText.className = 'hidden sm:block';
-            spanText.textContent = `${sectionsArray[index].charAt(0).toUpperCase() + sectionsArray[index].slice(1)}`;
-            
-            button.appendChild(spanIcon);
-            button.appendChild(spanText);
-            li.appendChild(button);
-            ul.appendChild(li);
+    const sections = [
+        { name: 'About Me', icon: '👤', section: 'about' },
+        { name: 'Skills', icon: '🛠', section: 'skills' },
+        { name: 'Experience', icon: '💼', section: 'experience' },
+        { name: 'Education', icon: '🎓', section: 'education' },
+        { name: 'Contact', icon: '📬', section: 'contact' }
+    ];
 
-            button.addEventListener('click', () => {
-                loadSection(section);
-            });
+    sections.forEach(section => {
+        const li = document.createElement('li');
+        const button = document.createElement('button');
+        button.classList.add('nav-btn', 'flex', 'items-center');
+        button.dataset.section = section.section;
+
+        const spanIcon = document.createElement('span');
+        spanIcon.classList.add('icon-' + section.section, 'block', 'text-orange-500', 'mr-2');
+        spanIcon.textContent = section.icon;
+        button.appendChild(spanIcon);
+
+        const spanText = document.createElement('span');
+        spanText.classList.add('hidden', 'sm:block');
+        spanText.textContent = section.name;
+        button.appendChild(spanText);
+
+        button.addEventListener('click', () => {
+            loadSection(section.section);
         });
 
-        const contentArea = document.createElement('div');
-        contentArea.className = 'flex-1 p-6 overflow-x-scroll';
-        body.appendChild(contentArea);
-    };
+        li.appendChild(button);
+        navigationUl.appendChild(li);
+    });
 
-    const sendWhatsAppMessage = () => {
-        const messageInput = document.getElementById('message');
-        if (messageInput) {
-            const message = encodeURIComponent(messageInput.value);
-            const whatsappUrl = `https://wa.me/917866857257?text=${message}`;
-            if (message) {
-                window.open(whatsappUrl, '_blank');
+    const flexArea = document.createElement('div');
+    flexArea.classList.add('flex-1', 'p-6', 'overflow-x-scroll');
+    document.body.appendChild(flexArea);
+
+    const inputArea = document.createElement('div');
+    inputArea.id = 'input-area';
+    inputArea.classList.add('mb-4');
+    flexArea.appendChild(inputArea);
+
+    const contentArea = document.createElement('div');
+    contentArea.id = 'content';
+    contentArea.classList.add('p-4', 'bg-gray-800', 'rounded', 'shadow-md');
+    flexArea.appendChild(contentArea);
+
+    const loader = document.createElement('div');
+    loader.id = 'loader';
+    loader.classList.add('hidden', 'text-center');
+    const loaderText = document.createElement('p');
+    loaderText.classList.add('mt-4', 'text-gray-400');
+    loaderText.textContent = 'Loading...';
+    loader.appendChild(loaderText);
+    flexArea.appendChild(loader);
+    
+    const sendButton = document.createElement('button');
+    sendButton.id = 'send-btn';
+    sendButton.classList.add('bg-orange-600', 'text-white', 'py-2', 'px-4', 'rounded', 'hover:bg-orange-500', 'flex-shrink-0', 'mx-auto', 'sm:ml-4', 'sm:mt-0', 'mt-4', 'w-full', 'sm:w-auto', 'text-center');
+    sendButton.textContent = 'Send';
+    inputArea.appendChild(sendButton);
+    
+    function loadSection(section) {
+        const url = `https://rohansharmasitoula.me/${section}`;
+        loader.classList.add("hidden");
+        contentArea.classList.add("hidden");
+
+        // Simulate typing and loading
+        typeURL(url, () => {
+            sendButton.onclick = () => {
+                sendButton.classList.add("bg-orange-700");
+                loader.classList.remove("hidden");
+                fetch(`${section}.html`)
+                    .then(response => response.text())
+                    .then(html=> {
+                        loader.classList.add("hidden");
+                        contentArea.innerHTML = html;
+                        contentArea.classList.remove("hidden");
+                        sendButton.classList.remove("bg-orange-700");
+                    });
+            };
+
+            sendButton.click();
+        });
+    }
+
+    function typeURL(url, callback) {
+        let i = 0;
+        const interval = setInterval(() => {
+            if (i < url.length) {
+                contentArea.textContent += url[i];
+                i++;
             } else {
-                alert('Please enter a message to send.');
+                clearInterval(interval);
+                callback();
             }
-        }
-    };
-
-    const switchTab = (tab, section) => {
-        const previewContent = document.getElementById(`${section}-preview`);
-        const rawContent = document.getElementById(`${section}-raw`);
-        if (tab === 'preview') {
-            previewContent.style.display = 'block';
-            rawContent.style.display = 'none';
-        } else if (tab === 'raw') {
-            previewContent.style.display = 'none';
-            rawContent.style.display = 'block';
-        }
-    };
-
-    init();
+        }, 30);
+    }
 });
